@@ -149,10 +149,10 @@
     services:
   
       adminer:
-      image: adminer:4.8.1
-      restart: always
-      ports:
-        - 6080:8080
+        image: adminer:4.8.1
+        restart: always
+        ports:
+          - 6080:8080
 
 Далее создаём соответствующие сервисы:
 
